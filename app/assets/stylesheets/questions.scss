@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$purple: #cbbcf6;
+$bgcoach: #cef9e2;
+$bgbutton: #a06ee1;
+
+
+body {
+  background: $purple;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+form {
+  display: inline-block;
+
+}
+.hola, .submit {
+  border-radius: 8px 0;
+  font-size: 15px;
+}
+.submit {
+  margin-left: 5px;
+}
+
+
+a {
+  text-decoration: none;
+  background-color: $bgbutton;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.coach {
+  background-color: $bgcoach;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.submit {
+  box-shadow: 1px 1px   #A0A0A0;
+}
+
+
